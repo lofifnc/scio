@@ -33,7 +33,7 @@ val autoServiceVersion = "1.0"
 val autoValueVersion = "1.8.2"
 val avroVersion = "1.8.2"
 val beamVendorVersion = "0.1"
-val beamVersion = "2.33.0"
+val beamVersion = "2.34.0"
 val bigdataossVersion = "2.2.2"
 val bigQueryStorageVersion = "1.21.1"
 val bigtableClientVersion = "1.19.1"
@@ -439,6 +439,7 @@ lazy val `scio-core`: Project = project
       "org.apache.beam" % "beam-vendor-guava-26_0-jre" % beamVendorVersion,
       "org.apache.commons" % "commons-compress" % commonsCompressVersion,
       "org.apache.commons" % "commons-math3" % commonsMath3Version,
+      "org.apache.commons" % "commons-lang3" % commonsLang3Version,
       "org.scalatest" %% "scalatest" % scalatestVersion % Test,
       "org.slf4j" % "slf4j-api" % slf4jVersion,
       "org.typelevel" %% "algebra" % algebraVersion,
